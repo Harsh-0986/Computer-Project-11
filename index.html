@@ -4,8 +4,8 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="question"><embed src="https://drive.google.com/file/d/1mS0uDiTY0COoi_L-9BaTZt39Fz20F5KG/preview"></div>
-<pre class='language-java'><code class="language-java">public static void main()</code><pre>
+<div id="question"></div>
 </body>
-<script src="/js/prism.js"></script>
+<script src="https://unpkg.com/pdfobject@2.2.5/pdfobject.min.js"></script>
+<script>PDFObject.embed("https://drive.google.com/file/d/1mS0uDiTY0COoi_L-9BaTZt39Fz20F5KG/preview", "#question")</script>
 </html>
